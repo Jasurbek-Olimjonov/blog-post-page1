@@ -1,0 +1,25 @@
+.choices .main-holder {
+    .left li {
+        width: 900px;
+        span {
+            @include text($weight: 600, $size: 24px, $space: -4%);
+        }
+
+        .kitchen {
+            height: 440px;
+        }
+
+        .lorem {
+            background: linear-gradient(to right, $grey, white);
+            margin-left: -50px;
+            margin-right: -50px;
+
+            @include text($space: -4%, $size: 36px, $height: 64px, $weight: 500);
+        }
+    }
+    .right {
+        h5 {
+            @include text($size: 14px, $space: 10%, $weight: 600);
+        }
+    }
+}

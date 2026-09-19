@@ -1,0 +1,37 @@
+.no-margin {
+    margin: $needMargin;
+}
+
+.no-padding {
+    padding: $needPadding;
+}
+
+.ally-color {
+    color: $allyColor;
+    font-size: inherit;
+}
+
+.my-bg {
+    background-color: $primaryColor;
+}
+
+
+.main-p {
+    @include text($size: 16px, $weight: 400, $opacity: 0.6, $height: 28px);
+}
+
+.gap-mine {
+    gap: 9px;
+}
+
+.p-mine {
+    padding: 12px;
+}
+
+.border-min {
+    border-color: $grey;
+}
+
+p {
+    @include text($height: 28px, $opacity: 0.6);
+}
