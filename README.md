@@ -1,12 +1,12 @@
 # Blog Post Page
 
-A food blog / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes.
+A food blog post / magazine-style landing page built as a front-end practice project, focused on translating a design into a pixel-close layout using Bootstrap's utility classes and SASS.
 
 ## Live Demo
 [View live site](https://Jasurbek-Olimjonov.github.io/blog-post-page1/)
 
 ## Overview
-This project recreates a full-page food blog layout — header section, article content, a call-to-action subscribe block, and a recipe card grid — using Bootstrap 5 as the primary framework, extended with custom SASS where Bootstrap's utilities fell short.
+This project recreates a full-page food blog layout — header section, post content, inbox to follow and recipe columns are built with Bootstrap's utilities (like `d-flex`, `d-grid` and mostly 'spacing utilities'), used SASS for staff Bootstrap couldn't handle.
 
 ## Built With
 - HTML5
@@ -25,18 +25,12 @@ Most of the layout — spacing, alignment, and structure — was handled using B
 ## Project Structure
 
 ```
-guide-toward-chef/
+blog-post-page1/
 ├── assets/
 |   ├── images/
 |   ├── svg/
 ├── styles/
 │   ├── sections/
-│   │   ├── _choices.scss
-│   │   ├── _footer.scss
-│   │   ├── _header.scss
-│   │   ├── _headline.scss
-│   │   ├── _inbox.scss
-│   │   └── _last-recipe.scss
 │   ├── utils/
 │   │   ├── _mixins.scss
 │   │   ├── _utilities.scss
@@ -52,7 +46,7 @@ guide-toward-chef/
 Clone the repo and open `index.html` in your browser — or, if you're editing the SASS:
 ```bash
 git clone https://github.com/Jasurbek-Olimjonov/blog-post-page1.git
-cd guide-toward-chef
+cd blog-post-page1
 # compile SASS if using a live-sass-compiler or similar
 ```
 
